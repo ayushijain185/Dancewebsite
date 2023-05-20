@@ -1,0 +1,20 @@
+ 
+
+block scripts 
+    script(src='/static/script.js')
+block style
+    style 
+        include ../static/about.css 
+block content 
+    nav#navbar
+        ul 
+          div#logo 
+            img(src="../static/logo.jpg")
+            | Dynamic dance academy
+          li #[a(href="/") Home]
+          li #[a(href="/about") About]
+          li #[a(href="mailto:jainayushi0047@gmail.com") Email]
+          li #[a(href="/contact") Contact Us]
+          li #[a(href="class/") Class Info ]  
+           
+    h1 About us

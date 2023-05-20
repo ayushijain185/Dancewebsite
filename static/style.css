@@ -1,0 +1,49 @@
+*{
+    padding: 1px;
+    margin: 0px;
+    font-family: 'Yeon Sung';
+}
+nav{
+    background-color: rgb(11, 11, 11);
+  
+}
+ul{
+    /* padding: auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    /* margin: auto 40px ; */
+}
+#logo{
+    display:flex;
+    box-sizing: border-box;
+    justify-content:start;
+    align-items:center;
+    color: white;
+    margin-right: 100px;
+    font-family: 'Yeon Sung';
+}
+#logo img{
+    height: 40px;
+    filter: invert();
+    justify-content:first baseline;
+}
+li{
+    cursor: pointer;
+    list-style: none;
+    margin: auto 20px ;
+    
+}
+a{
+    display: block;
+    /* margin-left: 80px; */
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:none;
+    color: rgb(247, 252, 253);
+   
+}
+a:hover{
+    color: rgb(247, 161, 214);
+
+}
